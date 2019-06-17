@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.responsive-photo-90 {
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
