@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+@media screen and (min-width: 960px) {
+    h1 {
+        background-color: gray;
+    }
+}
