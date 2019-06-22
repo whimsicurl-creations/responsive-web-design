@@ -5,6 +5,8 @@ body {
     font-size: 1.3rem;
     line-height: 1.2;
     margin: 0;
+    background-color: #f0f5f5;
+    color: #333;
 }
 
 li {
@@ -28,9 +30,11 @@ li {
 
     article {
         width: 950px;
-        background-color: beige;
+        background-color: #b3cccc;
         min-height: 480px;
-        padding: 5px;
+        padding: 15px;
+        border-radius: 10px;
+        margin-top: 10px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -41,7 +45,8 @@ li {
         float: left;
         width: 940px;
         padding: 5px;
-        background-color: silver;
+        background-color: #669999;
+        border-radius: 5px;
     }
 
     #navbar li {
@@ -55,13 +60,14 @@ li {
     #navbar a {
         display: block;
         padding: 5px;
-        color: white;
-        background: black;
+        color: #b3cccc;
+        background: #293d3d;
         text-decoration: none;
+        border-radius: 5px;
     }
 
     #navbar a:hover {
-        color: yellow;
+        color: #b3cccc;
         text-decoration: none;
     }
 
@@ -89,7 +95,8 @@ li {
 
     #navbar li:hover a { /* The top link display when a user hovers over sub-menu items */
         text-decoration: none;
-        background-color: gray;
+        background-color: #f0f5f5;
+        color: #293d3d;
     }
 
     #navbar li:hover ul a { /* The hover state defined a global stye for links even before they're hovered over.  Here we undo these effects */
@@ -97,7 +104,8 @@ li {
     }
 
     #navbar li:hover ul li a:hover { /* Defines the most explicit hover states when a user hovers over an individual link */
-        background-color: black;
+        background-color: #293d3d;
+        color: #b3cccc;
     }
 }
 
@@ -109,13 +117,14 @@ li {
     h1 {
         font-size: 1.5rem;
         margin: 0;
-        color: black;
+        color: #333;
+        display: none;
     }
 
     article {
-        background-color: beige;
+        background-color: #b3cccc;
         min-height: 480px;
-        padding: 5px;
+        padding: 15px;
     }
 
     a {
@@ -139,14 +148,14 @@ li {
         width: 66%;
         padding: 10px;
         margin-bottom: 5px;
-        color: white;
-        background: black;
+        color: #f0f5f5;
+        background: #293d3d;
         text-decoration: none;
         border-radius: 1px 5px 5px 1px;
     }
 
     #navbar a:hover {
-        color: yellow;
+        color: #b3cccc;
         text-decoration: none;
     }
 
@@ -158,7 +167,9 @@ li {
 
     #navbar li:hover a {
         text-decoration: none;
-        background-color: gray;
+        background-color: #669999;
+        color: #293d3d;
+        font-weight: bold;
         border-radius: 5px 25px 25px 5px;
         border-bottom: thin white solid;
         width: 75%;
