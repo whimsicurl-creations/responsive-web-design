@@ -135,7 +135,6 @@ li {
 
     #navbar {
         list-style: none;
-        margin-bottom: 10px;
     }
 
     #navbar li {
@@ -174,7 +173,7 @@ li {
         border-radius: 5px 25px 25px 5px;
         border-bottom: thin white solid;
         width: 75%;
-        box-shadow: 4px 4px 5px #333;
+        box-shadow: inset -3px 3px 3px #333;
     }
 }
 
