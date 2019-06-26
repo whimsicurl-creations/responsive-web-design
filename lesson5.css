@@ -1,14 +1,22 @@
 @charset "UTF-8";
 
 /* General Styles */
-
+body {
+    background: #990000;
+}
+article {
+    background: #ffffe6;
+    padding: 2%;
+}
 h1 {
     font-family: 'Fontdiner Swanky', cursive;
     font-size: 36px;
+    color: #331a00;
 }
 h2, h3, h4, h5, h6 {
     font-family: 'Schoolbell', cursive;
     font-weight: bold;
+    color: #331a00;
 }
 p, a {
     font-family: 'Open Sans', sans-serif;
@@ -18,4 +26,12 @@ p, a {
 }
 img {
     max-width: 300px;
+}
+
+/* Columns */
+section {
+    background: #fff;
+    margin: 1%;
+    padding: 1%;
+    border: 2px solid #990000;
 }
