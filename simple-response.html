@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Responsive Site</title>
+    <style>
+        @media (min-width:481px) {
+            section {
+                width: 33%;
+                float: left;
+            }
+        }
+
+        @media (max-width:480px) {
+            section {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Content 1</h1>
+    </section>
+    <section>
+        <h1>Content 2</h1>
+    </section>
+    <section>
+        <h1>Content 3</h1>
+    </section>
+</body>
+</html>
