@@ -71,3 +71,81 @@ footer {
 footer h6 {
     padding-bottom: 5px;
 }
+
+/* ===== Media Queries ===== */
+/* Tablets */
+@media (min-width: 481px) and (max-width: 959px) {
+    article {
+        position: relative;
+        height: 1000px;
+        width: 95%;
+    }
+    section {
+        min-height: 320px;
+    }
+    section img {
+        float: left;
+        padding: 10px;
+    }
+    #a {
+        float: none;
+        width: 94%;
+        margin: 0 auto;
+    }
+    #b {
+        background-color: yellow;
+        float: left;
+        width: 45%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    #c {
+        float: left;
+        width: 45%;
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+    footer {
+        clear: both;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+    body {
+        margin: 0;
+    }
+    article {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0;
+    }
+    section {
+        min-height: 300px;
+        margin-bottom: 2%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 0;
+    }
+    section img {
+        float: left;
+        padding: 10px;
+    }
+    #a {
+        float: none;
+        width: 95%;
+    }
+    #b {
+        background-color: white;
+        float: none;
+        width: 95%;
+    }
+    #c {
+        float: none;
+        width: 95%;
+    }
+    footer h6 {
+        margin-top: 0;
+    }
+}
