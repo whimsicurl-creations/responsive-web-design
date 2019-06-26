@@ -1,2 +1,21 @@
 @charset "UTF-8";
 
+/* General Styles */
+
+h1 {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 36px;
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Schoolbell', cursive;
+    font-weight: bold;
+}
+p, a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+img {
+    max-width: 300px;
+}
