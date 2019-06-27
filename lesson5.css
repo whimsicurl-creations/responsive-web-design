@@ -12,26 +12,35 @@ h1 {
     font-family: 'Fontdiner Swanky', cursive;
     font-size: 36px;
     color: #331a00;
+    text-align: center;
 }
 h2, h3, h4, h5, h6 {
     font-family: 'Schoolbell', cursive;
     font-weight: bold;
     color: #331a00;
+    text-align: center;
 }
 p, a {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight: 400;
     color: #333;
+}
+a {
+    font-weight: bold;
 }
 img {
     max-width: 300px;
+    margin-left: calc(50% - 150px);
+}
+#header-img {
+    float: left;
+    margin: 0;
 }
 
 /* Columns */
 section {
     background: #fff;
-    margin: 1%;
-    padding: 1%;
+    margin: 3% 1%;
+    padding: 5%;
     border: 2px solid #990000;
 }
