@@ -32,6 +32,10 @@ img {
     max-width: 300px;
     margin-left: calc(50% - 150px);
 }
+header {
+    margin-bottom: 10px;
+    border: solid 1px #ffffe6;
+}
 #header-img {
     float: left;
     margin: 0;
@@ -43,4 +47,5 @@ section {
     margin: 3% 1%;
     padding: 5%;
     border: 2px solid #990000;
+    clear: both;
 }
