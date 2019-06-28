@@ -6,20 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>show hide</title>
     <style>
-        summary {
-            font-size: 1.25rem;
-            cursor: pointer;
-            background-color: yellow;
-            margin: 5px;
-            padding: 5px;
+         @media (max-width: 480px) {
+            article {
+                display: none;
+            }
+            summary {
+                font-size: 1.25rem;
+                cursor: pointer;
+                background-color: yellow;
+                margin: 5px;
+                padding: 5px;
+            }
         }
-        article {
-            float: left;
-            width: 30%;
-            margin: 1%;
-            padding: 1%;
-            background-color: beige;
-            min-height: 400px;
+        @media (min-width: 481px) {
+            summary {
+                display: none;
+            }
+            article {
+                float: left;
+                width: 30%;
+                margin: 1%;
+                padding: 2%;
+                background-color: beige;
+                min-height: 400px;
+            }
         }
     </style>
 </head>
