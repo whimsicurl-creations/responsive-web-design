@@ -7,6 +7,21 @@
     <title>Responsive Images</title>
 </head>
 <body>
-    
+    <h1>Image Sized with HTML</h1>
+    <img src="Responsive-Images/g2400.png" alt="placeholder" width="400px">
+    <h1>Image Sized with CSS</h1>
+    <figure style="width:33%;">
+        <img src="Responsive-Images/g2400.png" style="width:100%;">
+        <figcaption>Placeholder image</figcaption>
+    </figure>
+    <h1>Responsive Images</h1>
+    <img src="Responsive-Images/y800.png" 
+    sizes="(max-width: 480px) 100vw, (max-width: 2400px) 49vw,"
+    srcset="Responsive-Images/y400.png 400w, Responsive-Images/y800.png 800w, Responsive-Images/y1600.png 1600w, Responsive-Images/y2400.png 2400w"
+    alt="placeholder yellow"/>
+    <img src="Responsive-Images/g800.png" 
+    sizes="(max-width: 480px) 100vw, (max-width: 2400px) 49vw,"
+    srcset="Responsive-Images/g400.png 400w, Responsive-Images/g800.png 800w, Responsive-Images/g1600.png 1600w, Responsive-Images/g2400.png 2400w"
+    alt="placeholder green"/>
 </body>
 </html>
