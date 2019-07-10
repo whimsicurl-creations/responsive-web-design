@@ -4,11 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <title>Connect!</title>
     <style>
+        html {
+            font-family: 'Quicksand', sans-serif;
+            color: #333;
+            height: 100%;
+            display: flex;
+        }
+        body {
+            background: lightgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+        form {
+            width: 40%;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            padding: 50px 0;
+            box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+        }
+        input {
+            padding: 5px;
+            border-radius: 5px;
+            border: solid 2px lightgreen;
+        }
+        #connect {
+            border: none;
+            background: lightgreen;
+            padding: 10px;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
         @media (max-width: 480px) {
+            form {
+                width: 90%;
+                padding: 10px 0;
+            }
             label {
                 display: none;
+            }
+            input {
+                font-size: 1.2rem;
             }
         }
     </style>
@@ -17,7 +64,7 @@
     <form action="http://davidkarlins.com/welcome.php" method="post">
     <h1>Contact Info...</h1>
     <p><label for="name">Name: </label>
-    <input name="name" id="name" placeholder="Enter your name here"></p>
+    <input name="name" id="name" placeholder="Enter your name here" autofocus></p>
     <p><label for="email">Email: </label>
     <input type="email" name="email" id="email" placeholder="Email"></p>
     <p><label for="url">URL: </label>
@@ -26,7 +73,7 @@
     <input type="tel" name="phone" id="phone" placeholder="Phone"></p>
     <p>Best time to call: 
     <input type="time" name="time" id="time"></p>
-    <p><input type="submit" value="Connect!"></inupt></p>
+    <p><input type="submit" id="connect" value="Connect!"></inupt></p>
 </form>
 </body>
 </html>
