@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Connect!</title>
+    <style>
+        @media (max-width: 480px) {
+            label {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
     <form action="http://davidkarlins.com/welcome.php" method="post">
@@ -17,7 +24,7 @@
     <input type="url" name="url" id="url" placeholder="URL"></p>
     <p><label for="phone">Phone: </label>
     <input type="tel" name="phone" id="phone" placeholder="Phone"></p>
-    <p><label for="time">Best time to call: </label>
+    <p>Best time to call: 
     <input type="time" name="time" id="time"></p>
     <p><input type="submit" value="Connect!"></inupt></p>
 </form>
