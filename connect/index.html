@@ -37,6 +37,10 @@
             border-radius: 5px;
             border: solid 2px lightgreen;
         }
+        input:focus {
+            outline: none;
+            background: #eee;
+        }
         #connect {
             border: none;
             background: lightgreen;
@@ -45,6 +49,8 @@
             font-size: 18px;
             font-weight: bold;
             color: #333;
+            box-shadow: 3px 3px 0 green;
+            cursor: pointer;
         }
         @media (max-width: 480px) {
             form {
@@ -64,13 +70,13 @@
     <form action="http://davidkarlins.com/welcome.php" method="post">
     <h1>Contact Info...</h1>
     <p><label for="name">Name: </label>
-    <input name="name" id="name" placeholder="Enter your name here" autofocus></p>
+    <input name="name" id="name" placeholder="Hello, my name is..." autofocus></p>
     <p><label for="email">Email: </label>
-    <input type="email" name="email" id="email" placeholder="Email"></p>
+    <input type="email" name="email" id="email" placeholder="Email me at..."></p>
     <p><label for="url">URL: </label>
-    <input type="url" name="url" id="url" placeholder="URL"></p>
+    <input type="url" name="url" id="url" placeholder="My favorite website is..."></p>
     <p><label for="phone">Phone: </label>
-    <input type="tel" name="phone" id="phone" placeholder="Phone"></p>
+    <input type="tel" name="phone" id="phone" placeholder="E.T. phone home."></p>
     <p>Best time to call: 
     <input type="time" name="time" id="time"></p>
     <p><input type="submit" id="connect" value="Connect!"></inupt></p>
